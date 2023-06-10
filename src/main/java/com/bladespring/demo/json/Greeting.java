@@ -3,6 +3,10 @@ package com.bladespring.demo.json;
 public class Greeting {
     private final String message;
 
+    public Greeting() {
+        this(null);
+    }
+
     public Greeting(String message) {
         this.message = message;
     }
